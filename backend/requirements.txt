@@ -1,0 +1,14 @@
+flask
+flask-cors
+torch
+transformers
+yfinance
+pandas
+numpy
+scikit-learn
+accelerate
+sentencepiece
+protobuf
+bitsandbytes
+scipy
+matplotlib
