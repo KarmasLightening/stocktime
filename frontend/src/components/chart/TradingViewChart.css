@@ -1,0 +1,39 @@
+.tradingview-chart-container {
+  width: 100%;
+  height: 600px;  
+  margin: 20px 0;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#tradingview-widget {
+  width: 100%;
+  height: calc(100% - 50px); 
+  min-height: 500px;
+}
+
+.chart-legend {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #1a1a1a;
+  height: 50px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.legend-line {
+  width: 20px;
+  height: 2px;
+  border-radius: 1px;
+}
