@@ -1,14 +1,24 @@
-flask
-flask-cors
-torch
-transformers
-yfinance
-pandas
-numpy
-scikit-learn
-accelerate
-sentencepiece
-protobuf
-bitsandbytes
-scipy
-matplotlib
+# Web Framework
+Flask==2.3.3
+Flask-Cors==4.0.0
+
+# Data Processing & Analysis
+pandas==2.1.1
+numpy==1.24.3
+yfinance==0.2.31
+scikit-learn==1.3.1
+
+# Deep Learning
+torch==2.1.0
+transformers==4.34.0
+accelerate==0.23.0
+bitsandbytes==0.41.1
+protobuf==4.24.4
+sentencepiece==0.1.99
+
+# Visualization
+matplotlib==3.8.0
+plotly==5.17.0
+
+# Utilities
+scipy==1.11.3
